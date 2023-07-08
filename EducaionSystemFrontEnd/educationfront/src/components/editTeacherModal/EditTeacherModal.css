@@ -1,0 +1,97 @@
+.editTeacherModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-Color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.editTeacherModal-container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: #eeeeee;
+        padding: 20px;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        width: 50%;
+}
+
+
+    .editTeacherModal-title {
+      margin: 5px;
+      padding-left: 15px;
+     color: black;
+     
+    }
+    .editTeacherModal-Form{
+      text-align: center;
+
+    }
+    .editTeacherModal-Input{
+        display: flex;
+        margin: 12px;
+    align-items:center;
+     gap: 10px;
+ 
+    }
+    
+    .editTeacherModal-Input > label {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(125, 124, 124);
+        width: 82px;
+      }
+      .editTeacherModal-Input > input {
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        width: 72%;
+      }
+      .editTeacherModal-Input >   textarea {
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        width: 72%;
+        height: 4rem;
+      }
+    
+      .editTeacherModal-Input> select{
+        height: 40px;
+       padding: 10px;
+       border: 1px solid gray;
+       border-radius: 5px;
+       width:60%
+     }
+    
+     .editTeacherModal-btn{
+        display: flex;
+    align-items: center;
+    justify-content:center;
+        width: 80%;
+        font-size: 18px;
+        gap: 5px;
+      }
+      
+      
+     
+      .editTeacherModal-btn button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 5px;
+        width: 70px;
+      }
+      .editTeacherModal-btn button:hover{
+        opacity: 0.7;
+      }

@@ -1,0 +1,28 @@
+.signIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border: 1px solid orange;
+  border-radius: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.sigInForm {
+  display: flex;
+  flex-direction: column;
+  color: orange;
+}
+
+.sigInForm h2 {
+
+  margin: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+
+
+
+

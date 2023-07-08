@@ -1,0 +1,57 @@
+.userOptions{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+.userOptions-wrapper{
+    width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.userOptions-options{
+    width: 350px;
+    border: 1px solid ;
+    height: 240px;
+    margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ourCourses{
+    background-color: #0c079d;
+
+}
+.myCourses{
+    background-color: #d41111; 
+}
+
+.library{
+    background-color: green; 
+color: white;
+}
+
+.x{
+    background-color: #ff5900; 
+    color: white;
+}
+
+
+
+.userOptions-options:hover  {
+    transform: scale(1.1);
+       }
+
+       .userOptionslink{
+        text-decoration: none;
+color: white;
+       }

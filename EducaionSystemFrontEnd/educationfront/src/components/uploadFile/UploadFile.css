@@ -1,0 +1,42 @@
+
+.UploadFile{
+    position: relative;
+  }
+  
+  
+  .UploadFile>input {
+    position: relative;
+    text-align: right;
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+    height: 46px;
+   width: 98%;
+   
+  }
+
+
+  .addFilebtn{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 98%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    color: #fff;
+    background-color: #f55e30;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 1em;
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.5);
+  
+  
+  }

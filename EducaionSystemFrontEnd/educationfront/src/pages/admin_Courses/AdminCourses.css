@@ -1,0 +1,84 @@
+.adminCourses{
+  display: block;
+  flex: 1;
+}
+
+.adminCourseform{
+  display: flex;
+  margin-left: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 3px;
+  margin-top: 30px;
+
+}
+.searchCourseItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 180px;
+}
+.searchCourseItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  .searchCourseItem > input {
+
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .searchCourseItem> select{
+
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+   
+  }
+
+  .adminCourse-btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+    height: 75px;
+  }
+  
+
+  .adminCourse-btn>button{
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 39px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .adminCourseSearch-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 5, 161);
+  }
+
+  .adminCourseSearch-btn:active {
+    background-color:rgb(5, 5, 161);
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
+
+  .adminCourseCreate-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+  }
+
+  .adminCourseCreate-btn:active {
+    background-color:teal(5, 5, 161);
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }

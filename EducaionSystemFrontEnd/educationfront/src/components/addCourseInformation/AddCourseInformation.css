@@ -1,0 +1,46 @@
+.addCourseInformationForm {
+  text-align: center;
+  margin: 30px;
+}
+
+.addCourseInformationInput {
+  display: flex;
+  margin: 12px;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.addCourseInformationInput>label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(125, 124, 124);
+  width: 82px;
+}
+
+.addCourseInformationInput>input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 58.3%;
+}
+
+.addCourseInformationInput>textarea {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  max-width:58.3% ;
+  min-width: 58.3% ;
+  min-height:100px ;
+}
+
+.addCourseInformationInput>select {
+  height: 40px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 58.3%;
+}
+
+
+

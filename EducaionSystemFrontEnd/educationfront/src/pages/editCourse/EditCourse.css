@@ -1,0 +1,87 @@
+
+.editCourse{
+    flex: 1;
+
+  }
+  
+.editCourse-container{
+  margin: 30px;
+  display: flex;
+justify-content: space-between;}
+
+.editCourseForm{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+
+  .editCourseInput{
+    display: flex;
+    margin: 5px;
+gap: 5px;
+    align-items: center;
+  
+  
+  }
+  
+  .editCourseInput > label {
+      font-size: 14px;
+      font-weight: 600;
+      color: rgb(125, 124, 124);
+      width: 82px;
+    }
+    .editCourseInput > input {
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      width: 500px;
+    }
+    .editCourseInput >   textarea {
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      max-width: 500px;
+      min-width:500px;
+      min-height: 100px;
+    }
+  
+    .editCourseInput> select{
+   
+     padding: 10px;
+     border: 1px solid gray;
+     border-radius: 5px;
+     width: 500px;
+   }
+  
+
+.editCourse-image{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+flex-direction: column;
+}
+
+.editCourseImage-container{
+  display: flex;
+  align-items: center;
+     gap: 10px;
+}
+.editCourseImage-optionBtn{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.editCourseImage-box{
+
+box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+border-radius: .5rem;
+border: 0.1rem solid rgba(0,0,0,0.1);
+text-align: center;
+}
+
+.editCourseImage-image img{
+  height: 300px;
+  width: 500px;
+}

@@ -1,0 +1,29 @@
+.courseDetails{
+    flex: 1;
+  
+}
+.courseDetails-header{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    background: linear-gradient(90deg, rgba(2,8,62,1) 3%, rgba(10,14,124,1) 28%, rgba(129,152,200,1) 83%);
+
+    
+}
+.courseDetails-header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: white;
+
+}
+.courseDetailsTitle {
+    margin: 5px;
+    padding-left: 15px;
+   color: white;
+   
+}
+
+.goto{
+    cursor: pointer;
+}

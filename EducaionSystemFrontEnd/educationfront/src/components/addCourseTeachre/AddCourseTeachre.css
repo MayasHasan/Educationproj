@@ -1,0 +1,32 @@
+.addCourseTeacher {
+    display: flex;
+  flex-direction: column;
+  align-items:center;
+justify-content: center; 
+height: 40%;
+}
+.addCourseTeacherForm{
+    width: 100%;
+}
+.addCourseTeacherInput{
+    display: flex;
+    margin: 12px;
+align-items:center;
+justify-content: center; 
+gap: 50px;
+ 
+
+}
+
+.addCourseTeacherInput > label {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(125, 124, 124);
+    width: 82px;
+  }
+  .addCourseTeacherInput > select {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 58.3%;
+  }

@@ -1,0 +1,72 @@
+.adminSessions{
+    flex: 1;
+}
+.adminSessions h1{
+    margin: 5px;
+    padding-left: 15px;
+}
+
+.adminSessionform{
+    display: flex;
+    margin-left: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.searchSessionItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    width:250px;
+}
+.searchSessionItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  .searchSessionItem > input {
+
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .searchSessionItem> select{
+
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+   
+  }
+
+  .adminSession-btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+  }
+  
+  .adminSession-btn>button{
+    width: 95px;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 39px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .adminSessionSearch-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 5, 161);
+  }
+
+  .adminSessionSearch-btn:active {
+    background-color:rgb(5, 5, 161);
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }

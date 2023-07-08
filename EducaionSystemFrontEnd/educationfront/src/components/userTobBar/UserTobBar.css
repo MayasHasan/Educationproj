@@ -1,0 +1,59 @@
+
+.userTobBar{
+    display: flex;
+    align-items: center;
+}
+
+.userTobBar-btn{
+    display: flex;
+    gap: 6px;
+}
+
+.userTobBar-btn {
+    border-radius: 5px;
+    height: 40px;
+}
+
+
+.userCoursesform{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.userCourses-search{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+}
+  .userCourses-search > input {
+    height: 13px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+  }
+
+
+  .userCourses-btn{
+    border-radius: 5px;
+padding: 10px;
+color: white;
+background: blue;
+border: 1px;
+cursor: pointer;
+  }
+
+  .userTobBar-btn{
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background: black;
+    border: 1px;
+cursor: pointer;
+  }

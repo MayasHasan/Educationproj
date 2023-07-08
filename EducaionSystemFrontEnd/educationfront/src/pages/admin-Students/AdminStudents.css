@@ -1,0 +1,75 @@
+.adminStudents {
+  flex: 1;
+}
+
+.adminStudents h1 {
+  margin: 5px;
+  padding-left: 15px;
+}
+
+.adminStudentform {
+  display: flex;
+  margin-left: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+  margin-top: 30px;
+}
+
+.searchStudentItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 250px;
+}
+
+.searchStudentItem>label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.searchStudentItem>input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.searchStudentItem>select {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
+.adminStudent-btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.adminStudent-btn>button {
+  width: 95px;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 39px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.adminStudentSearch-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(5, 5, 161);
+}
+
+.adminStudentSearch-btn:active {
+  background-color: rgb(5, 5, 161);
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}

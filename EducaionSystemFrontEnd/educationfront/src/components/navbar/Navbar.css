@@ -1,0 +1,33 @@
+.Navbar{
+background: #181818;
+height: 70px;
+width: 100%;
+position: sticky;
+top:0;
+z-index: 999;
+opacity: 0.9;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+    color: white;
+    margin-left: 10px;
+}
+
+
+.Navbar button{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+ 
+
+    cursor: pointer;
+}

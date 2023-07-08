@@ -1,0 +1,13 @@
+.studentDashBoard{
+ display: flex;
+justify-content: center;
+
+
+}
+.studentDashBoard-container{
+    display: flex;
+    width: 90%;
+}
+
+
+

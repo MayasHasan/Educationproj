@@ -1,0 +1,23 @@
+.LandPage {
+  position: relative;
+  height: 100vh;
+}
+
+
+.home-imageSection {
+  height: 100%;
+}
+
+
+.LandPage-signIn {
+  position: absolute;
+  top: 34%;
+  left: 10%;
+}
+
+.LandPage-signUp {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+

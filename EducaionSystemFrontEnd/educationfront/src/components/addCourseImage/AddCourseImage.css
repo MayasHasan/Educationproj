@@ -1,0 +1,42 @@
+
+.addCourseImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+ .addCourseImage h2{
+  margin-left: 50px;
+  margin-bottom: 10px;
+ }
+.addCourseImage-container{
+    display: flex;
+    align-items: center;
+       gap: 20px;
+}
+.addCourseImage-optionBtn{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ .addCourseImage-box{
+
+ box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+ border-radius: .5rem;
+ border: 0.1rem solid rgba(0,0,0,0.1);
+text-align: center;
+}
+
+  .addCourseImage-image img{
+    height: 300px;
+    width: 500px;
+}
+
+
+.addCourseImage-btn{
+ margin-top:10px;
+}
+
+

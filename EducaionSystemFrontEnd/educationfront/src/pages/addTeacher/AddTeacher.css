@@ -1,0 +1,41 @@
+
+.addTeacherinformation{
+
+flex: 1;
+}
+
+
+.addTeacherinformationForm{
+  text-align: center;
+  margin: 50px;
+}
+.addTeacherinformationInput{
+    display: flex;
+    margin: 12px;
+align-items:center;
+ gap: 20px;
+
+}
+
+.addTeacherinformationInput > label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(125, 124, 124);
+    width: 82px;
+  }
+  .addTeacherinformationInput > input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 58.3%;
+  }
+  .addTeacherinformationInput > textarea {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    max-width: 58.3%;
+    min-width: 58.3%;
+    min-height: 100px;
+}
+  
+

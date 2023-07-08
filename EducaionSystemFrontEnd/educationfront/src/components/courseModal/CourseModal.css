@@ -1,0 +1,65 @@
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .courseModal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 10px;
+    width:40%
+  }
+
+  .courseModal-Title{
+    color:blue
+  }
+  
+  .courseModal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  
+
+  .courseModal-btn button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .courseModal-btn button:hover
+   {
+    opacity: 0.7;
+  }
+  .cancel-btn{
+    margin-left: 3px;
+  }
+
+.courseInfo{
+    overflow-wrap:break-word
+}

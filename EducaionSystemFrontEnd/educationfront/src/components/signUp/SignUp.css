@@ -1,0 +1,22 @@
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid orange;
+  border-radius: 40px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  color: orange;
+}
+
+.signUpForm>h2 {
+  margin: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+

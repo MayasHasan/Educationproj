@@ -1,0 +1,91 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.sessionModal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 10px;
+  width:30%
+}
+
+
+
+
+.addSessionInformationInput {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+
+}
+
+.addSessionInformationInput>label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(125, 124, 124);
+  width: 82px;
+  margin-top: 5px;
+}
+
+.addSessionInformationInput>input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 95.3%
+}
+
+.addSessionInformationInput>textarea {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 95.3%;
+  height: 4rem;
+}
+
+
+.addSessionInformation-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 18px;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+
+.addFile-btn button ,
+.addSessionInformation-btn button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 70px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.addFile-btn button:hover ,
+.addSessionInformation-btn button:hover
+ {
+  opacity: 0.7;
+}
+.cancel-btn{
+  margin-left: 3px;
+}
